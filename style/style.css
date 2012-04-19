@@ -1,0 +1,447 @@
+@charset "utf-8";
+body { margin:0; padding:0; width:100%; background:#ffffff; font-family: Arial, Helvetica, sans-serif;}
+html { padding:0; margin:0;}
+
+/* moodle block */
+
+.block_openscout  {height:800px}
+
+.block_link {cursor:pointer; text-decoration:underline; color:#0F3A82; font: normal 12px Arial, Helvetica, sans-serif;}
+	
+/* main */
+.main {width:100%; padding:0; margin:0 auto; background: #ebebeb; }
+
+/********** header **********/
+
+.block_header {margin:0 auto; width:980px; padding:0; border:none;}
+/* logo */
+.logo { float:left; padding:0; margin:0;}
+/* header_click */
+.header_click { width:200px; float:right;  padding:35px 0 0 25px; margin:0;}
+.header_click p { padding:0; margin:0; font: normal 12px Arial, Helvetica, sans-serif; color:#fff; line-height:1.8em;}
+.header_click a { text-decoration:none; color:#93b8c9; font: normal 11px Arial, Helvetica, sans-serif;}
+.header_click img { margin:8px; padding:0; float:left;}
+/* menu */	
+.menu_resize { width:980px; background:url(http://openscout.dat.demokritos.gr/images/menu_resize.gif) top no-repeat; padding:0; margin:0;}
+.menu { float:left; padding:4px 0 0 0; margin:0; width:610px;}
+.menu ul { text-align: left;  padding:0; margin:0; list-style:none; border:0; float:left;}
+.menu ul li { float:left; margin:0; padding:0 5px; border:0;}
+.menu ul li a { float:left; margin:0; padding:13px 0; color:#fff; font:bold 12px Arial, Helvetica, sans-serif; text-decoration:none;}
+.menu ul li a span { padding:13px; background:none;}
+.menu ul li a:hover {   background: url(http://openscout.dat.demokritos.gr/images/r_menu.gif) no-repeat right;}
+.menu ul li a:hover span {   background:url(http://openscout.dat.demokritos.gr/images/l_menu.gif) no-repeat left;}
+.menu ul li a.active {  background:url(http://openscout.dat.demokritos.gr/images/r_menu.gif) no-repeat right;}
+.menu ul li a.active span {   background:url(http://openscout.dat.demokritos.gr/images/l_menu.gif) no-repeat left;}
+/* search */
+.search { padding:10px 20px 0 0; margin:0; width:220px; float:right;}
+.search form { display:block; float:right; padding:0; margin:0;}
+.search span { display:block; float:left; background: url(http://openscout.dat.demokritos.gr/images/search_bg.gif) left top no-repeat; width:158px; padding:0 5px; height:25px;}
+.search form .keywords { width:149px; line-height:13px; height:13px; float:left; background:none; border:0; padding:6px 2px; margin:0; font:normal 11px Arial, Helvetica, sans-serif; color:#4c7a91;}
+.search form .button { float:left; margin:0; padding:0;}
+/********** slider **********/
+.slider_top {margin:0 auto; padding:0;}
+/*header_text*/
+.header_text { margin:0 auto; padding:18px 0 20px 0; width:980px; background:#f8f8f8;}
+.header_text_sub { margin:0 auto; padding:0; width:940px; background: url(http://openscout.dat.demokritos.gr/images/header_text2_bg.gif) top no-repeat;}
+.header_text_sub h2 { width: 390px; float:left; padding:30px 0 20px 30px; margin:0; font: bold 40px Arial, Helvetica, sans-serif; color:#fff;}
+.header_text_sub p { width:450px; float:right; padding:30px 20px 0 0; margin:0; font: italic 12px Arial, Helvetica, sans-serif; color:#fff;}
+.header_text .div { width:850px; padding:0; margin:0 auto;}
+.header_text img.screen { float:right; margin:18px 0 0 0; padding:5px !important; border:1px solid #a7a7a7; background-color:#f3f3f3;}
+.header_text .div .left1 { float:left; width:345px; padding:30px 0 0 5px; margin:0 10px 0 0;}
+.header_text .div .left1 img { float:left; margin:0; padding:15px 0 0 0;}
+.header_text .div .left1 h2 { font:bold italic 36px Arial, Helvetica, sans-serif; color:#fff; padding:10px 0 5px 0; margin:0;}
+.header_text .div .left1 p { font: normal 13px Arial, Helvetica, sans-serif; color:#fff; padding:0; margin:0;}
+/*FBG*/
+.FBG { background:  url(http://openscout.dat.demokritos.gr/images/FBG_bg.gif) top repeat-y; padding:0; width:940px; margin:0 auto;}
+.FBG_top { background: url(http://openscout.dat.demokritos.gr/images/FBG_top.gif) top no-repeat; margin:0px auto; padding:10px 0px;}
+.FBG_bottom { height:11px; margin:0; padding:0; width:940px; background: url(http://openscout.dat.demokritos.gr/images/FBG_bottom.gif) bottom no-repeat;}
+/****Recent **/
+.Recent  { width:290px; float:left; padding:10px; margin:10px 0;}
+.Recent p.rec { font: normal 12px Arial, Helvetica, sans-serif; color:#5e5e5e; padding:5px 0; margin:0; line-height:1.8em;}
+.Recent img.rec { float: left; margin:10px; padding:0;}
+.Recent h2.rec { font: normal 18px Arial, Helvetica, sans-serif; color:#2f2f2f; padding:10px 0 10px 10px; margin:0; border-bottom:1px solid #d6e5e9;}
+/********** block index **********/
+.body { margin:0; padding:0;}
+.body_resize { width:980px; margin:0 auto; padding:0; background: #f8f8f8;}
+.body_resize h2 { font:normal 18px Arial, Helvetica, sans-serif; color:#2a2a2a; padding:5px 5px 15px 15px; margin:0;}
+.body_resize p { font:normal 12px Arial, Helvetica, sans-serif; color:#5f5f5f; padding:10px 15px; margin:0; line-height:1.8em;}
+.body_resize p strong { color:#151515;}
+.body_resize p span { color:#a4a4a4; font: normal 11px Arial, Helvetica, sans-serif;}
+.body_resize p.test { color:#30708e; font: normal 11px Arial, Helvetica, sans-serif;}
+.body_resize a { color:#2e5466; text-decoration:none; font: bold 12px Arial, Helvetica, sans-serif;}
+.left ul { list-style:none; margin:10px 0 10px 15px; padding:0; width:260px; float:left;}
+.left li { background:url(http://openscout.dat.demokritos.gr/images/ul_li.gif) left no-repeat; padding:2px 0 2px 25px; margin:0; font:  normal 12px Arial, Helvetica, sans-serif; color:#4a98ac; line-height:1.8em;}
+.body_resize img { float:left; margin:10px 10px; padding:0;}
+.body_resize img.floated { float:right; margin:15px 5px; padding:0;}
+.right  { width:371px; float:right; margin:0; padding:10px 10px; } 
+.right_bg { background:url(http://openscout.dat.demokritos.gr/images/news_bg.gif) top repeat-y; padding:0; width:351px; margin:10px auto;}
+.right_top { background: url(http://openscout.dat.demokritos.gr/images/news_bg_top.gif) top no-repeat; margin:0 auto; padding:10px 0;}
+.right_bottom { height:4px; margin:0; padding:0; width:351px; background:url(http://openscout.dat.demokritos.gr/images/news_bg_bottom.gif) bottom no-repeat;}
+.left  { width:565px; float:left; margin:0; padding:10px 10px; } 
+.blog { width:300px; float:left; margin:0; padding:10px 15px;}
+/********** contact form **********/
+#contactform { margin:0; padding:5px 10px;}
+#contactform * { color:#7a7a7a;}
+#contactform ol { margin:0; padding:0; list-style:none;}
+#contactform li { margin:0; padding:0; background:none; border:none; display:block; clear:both;}
+#contactform li.buttons { margin:5px 0 5px 0;}
+#contactform label { float:left; margin:0; width:130px; padding:5px 0; font:normal 12px Arial, Helvetica, sans-serif; color:#2a2a2a; text-transform:capitalize;}
+#contactform label span { font:normal 10px Arial, Helvetica, sans-serif;}
+#contactform input.text { width:380px; border:1px solid #d8d8d8; margin:5px 0; padding:5px 2px; height:15px; background:#f1f1f1;}
+#contactform textarea { width:380px; border:1px solid #d8d8d8; margin:10px 0; padding:2px; background:#f1f1f1; height:250px;}
+#contactform li.buttons input { padding:3px 0; margin:0 0 0 425px; border:0; color:#FFF;}
+p.response { color:#2c2c2c; font:bold 11px Arial, Helvetica, sans-serif; line-height:1.8em; width:auto;}
+/*************footer**********/
+.footer_resize { width:980px; margin:0 auto; padding:10px 0; background:url(http://openscout.dat.demokritos.gr/images/footer_bg.gif) top no-repeat;}
+.footer {padding:0 0 20px 0;  margin:0;}
+.footer p { font:normal 12px  Arial, Helvetica, sans-serif; color:#f8f8f8;}
+.footer a { font:normal 12px Arial, Helvetica, sans-serif; color:#f8f8f8; text-decoration:none; padding:5px; margin:0;}
+.footer p.leftt { text-align:left; width:90%; margin:0; padding:0px 0 0 20px; float:left;} 
+.footer p.rightt { text-align:right; width:10%; margin:0; padding:10px 20px 0 0; float:right;} 
+
+p.clr, .clr { clear:both; padding:0; margin:0; background:none;}
+li.bg, .bg { clear:both; border-top:1px solid #dfdfdf; padding:0; margin:10px 0; background:none; line-height:0;}
+li.bg2, .bg2 { clear:both; border-top:1px solid #dfdfdf; padding:0; margin:1px 10px; background:none; line-height:0;}
+
+#commentform * { color:#7a7a7a;}
+#commentform ol { margin:0; padding:0; list-style:none;}
+#commentform li { margin:0; padding:0; background:none; border:none; display:block; clear:both;}
+#commentform li.buttons { margin:5px 0 5px 0;}
+#commentform label { float:left; margin:0; width:130px; padding:5px 0; font:normal 12px Arial, Helvetica, sans-serif; color:#2a2a2a; text-transform:capitalize;}
+#commentform label span { font:normal 10px Arial, Helvetica, sans-serif;}
+#commentform input.text { width:380px; border:1px solid #d8d8d8; margin:5px 0; padding:5px 2px; height:15px; background:#f1f1f1;}
+#commentform textarea { width:520px; border:1px solid #d8d8d8; margin:10px 0; padding:2px; background:#f1f1f1; height:100px;}
+#commentform li.buttons input { padding:3px 0; margin:0 0 0 425px; border:0; color:#FFF;}
+
+#addtagform * { color:#7a7a7a;}
+#addtagform ol { margin:0; padding:0; list-style:none;}
+#addtagform li { margin:0; padding:0; background:none; border:none; display:inline; clear:both;}
+#addtagform li.buttons { margin:5px 0 5px 0;}
+#addtagform label { float:left; margin:0; width:130px; padding:5px 0; font:normal 12px Arial, Helvetica, sans-serif; color:#2a2a2a; text-transform:capitalize;}
+#addtagform label span { font:normal 10px Arial, Helvetica, sans-serif;}
+#addtagform input.text { width:120px; border:1px solid #d8d8d8; margin:5px 0; padding:5px 2px; height:15px; background:#f1f1f1;}
+#addtagform textarea { width:520px; border:1px solid #d8d8d8; margin:10px 0; padding:2px; background:#f1f1f1; height:100px;}
+#addtagform li.buttons input { padding:3px 0; margin:0 0 0 425px; border:0; color:#FFF;}
+
+#messageform * { color:#7a7a7a;}
+#messageform ol { margin:0; padding:0; list-style:none;}
+#messageform li { margin:0; padding:0; background:none; border:none; display:block; clear:both;}
+#messageform li.buttons { margin:5px 0 5px 0;}
+#messageform label { float:left; margin:0; width:130px; padding:5px 0; font:normal 12px Arial, Helvetica, sans-serif; color:#2a2a2a; text-transform:capitalize;}
+#messageform label span { font:normal 10px Arial, Helvetica, sans-serif;}
+#messageform input.text { width:380px; border:1px solid #d8d8d8; margin:5px 0; padding:5px 2px; height:15px; background:#f1f1f1;}
+#messageform textarea { width:520px; border:1px solid #d8d8d8; margin:10px 0; padding:2px; background:#f1f1f1; height:100px;}
+#messageform li.buttons input { padding:3px 0; margin:0 0 0 425px; border:0; color:#FFF;}
+
+p {
+	word-wrap:break-word;
+}
+/* image border */
+
+.img_border{
+	padding:3px !important; 
+	border:1px solid #a7a7a7; 
+	background-color:#f3f3f3;
+}
+
+/* login buttons */
+#loginul {
+	background:#0f3a82;
+	/* display:table;/*Webkit node fix*/
+	/* list-style:none; */
+	text-align:center;
+	padding:0px;
+}
+
+#loginul li {
+    display:-moz-inline-box;/* FF2 & under */
+    display:inline-block;/* for modern browsers */
+    font-weight:bold;
+}
+
+* html #loginul li {display:inline;}/*IE6*/
+*+html #loginul li {display:inline;}/*IE7*/
+
+#loginul a {
+    float:left;/*IE7 needs a float or inline-block (instead of display:block)*/
+    font-weight:bold;
+    font-size:12px;
+    color:#fff;
+    text-decoration:none;
+}
+#loginul img {
+	/* padding:3px !important; */
+}
+#loginul a span {
+    width:50px;/*160px total w/ padding*/
+	font-size:11px;
+}
+
+ 
+/* slideshow */
+.slink {
+	margin-top:15px !important;
+}
+.slink img {
+	float:none !important;
+	padding:0 !important;
+	vertical-align: middle;
+}
+.slink a:link {color:#ffffff;}      /* unvisited link */
+.slink a:visited {color:#ffffff;}  /* visited link */
+.slink a:hover {color:#9dc21b;}  /* mouse over link */
+.slink a:active {color:#0000FF;}  /* selected link */
+
+/* register form */
+.dforms input { font-family: Arial, Helvetica, sans-serif !important; font-size: 1em;}
+.dforms input { display:block; }
+.dforms input.text { margin-bottom:12px; width:95%; padding: .4em; }
+.dforms fieldset { padding:0; border:0; margin-top:25px; }
+.dforms h1 { font-size: 1.2em; margin: .6em 0; }
+div#users-contain { width: 350px; margin: 20px 0; }
+div#users-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#users-contain table td, div#users-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+
+/* profile form */
+#profile_form input { font-family: Arial, Helvetica, sans-serif !important; font-size: 1em;}
+#profile_form input { display:block;}
+#profile_form input.text { margin-bottom:12px; width:95%; padding: .4em; }
+#profile_form input[type="checkbox"] { display:inline; }
+#profile_form fieldset { padding:0; border:0; margin-top:25px; }
+#profile_form h1 { font-size: 1.2em; margin: .6em 0; }
+
+/* search links */
+
+.search_link a:link {color:#ffffff; text-decoration:none;}      /* unvisited link */
+.search_link a:visited {color:#ffffff; text-decoration:none;}  /* visited link */
+.search_link a:hover {color:#9dc21b; text-decoration:underline;}  /* mouse over link */
+.search_link a:active {color:#0000FF;}  /* selected link */
+
+.search_linka a:link {color:#9dc21b; text-decoration:underline;}      /* unvisited link */
+.search_linka a:visited {color:#9dc21b; text-decoration:underline;}  /* visited link */
+.search_linka a:hover {color:#9dc21b; text-decoration:underline;}  /* mouse over link */
+.search_linka a:active {color:#0000FF;}  /* selected link */
+
+/* filtered search */
+
+#advanced_search_form {
+	margin-top:5px;
+}
+
+#advanced_search_form fieldset {
+	text-align:center;
+	margin-bottom:0px;
+	border-style:none;
+}
+
+
+#as_keyword { 
+	border:1px solid #d8d8d8;
+	height:35px; 
+	background:#f1f1f1;
+	vertical-align:middle;
+	width:400px;
+	font-size:20px;
+	padding:5px;
+}
+
+#advanced_search_form label {
+	display: inline-block;
+	text-align:left;
+	font-size:16px;
+}
+
+#search_filters select {
+	display: block;
+}
+
+#current_keyword {
+	color:blue;
+	font-size:20px;
+	line-height:19px;
+	font-weight:bold;
+}
+
+/* social-tag search */
+
+#tag_search_form {
+	margin-top:10px;
+}
+
+#tag_search_form fieldset {
+	text-align:center;
+	margin-bottom:10px;
+	border-style:none;
+}
+
+#tag_search_tag {
+	border:1px solid #d8d8d8;
+	height:35px; 
+	background:#f1f1f1;
+	vertical-align:middle;
+	width:400px;
+	font-size:20px;
+}
+
+#tag_search_box label {
+	display: inline-block;
+	text-align:left;
+	font-size:16px;
+}
+
+#current_tag {
+	color:blue;
+	font-size:20px;
+	line-height:19px;
+	font-weight:bold;
+}
+
+/* tagclouds */
+
+#resource_tagcloud {
+    background: url(http://openscout.dat.demokritos.gr/images/weather-overcast-small.png) no-repeat left top;
+    margin:5px 0px 0px 0px;
+    padding:0px;
+		min-height:50px;
+		height:auto;
+
+}
+
+#tagcloudLarge {
+    background: url(http://openscout.dat.demokritos.gr/images/weather-overcast.png) no-repeat left top;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    padding:20px;
+		overflow:auto;
+}
+
+.taglist {
+    text-align:center;
+    margin-top:0;
+    padding:0;
+}
+.taglist li {
+    list-style-type:none;
+    float:left;
+    margin:0 10px;
+    height:35px;
+}
+.taglist li a {
+    text-decoration:none;
+    /*color:black;*/
+}
+.taglist li a:hover {
+    text-decoration:underline;
+}
+
+/* pagination */
+
+#pagination {
+	text-align:right;
+}
+
+#pagination select{
+	border:1px solid #fff;
+	padding:3px;
+	font-size:12px;
+	background-color:#ecf3f5;
+}
+
+
+#pagination img{
+        border: 0;
+        vertical-align: middle;
+	float:none; 
+	padding:0px;
+	margin:0px;
+}
+
+/* hide/show filters */
+.hs_filters a{
+	font-size:11px;
+}
+.hs_filters a:link {color:#000; text-decoration:none;}      /* unvisited link */
+.hs_filters a:visited {color:#000; text-decoration:none;}  /* visited link */
+.hs_filters a:hover {color:#9dc21b; text-decoration:underline;}  /* mouse over link */
+.hs_filters a:active {color:#0000FF;}  /* selected link */
+
+
+/* tools */
+
+.tool{
+	background-image:url("http://openscout.dat.demokritos.gr/images/gtk-properties.png") !important;
+}
+
+/* resource detailed view*/ 
+
+#resource_metadata dl {
+	margin-bottom:5px;
+	text-align:left;
+	font-size:13px;
+}
+ 
+#resource_metadata dl dt {
+	font-size:12px;
+	color:#5f5f5f;
+	background:#ededed;
+	float:left;
+	margin-right:10px;
+	padding:5px;
+	width:100px;
+
+}
+
+#resource_metadata dl dd {
+        font-size:12px;
+	color:#5f5f5f;
+	margin:2px 0;
+	padding:5px 0;
+	padding-left:120px;
+}
+
+#resource_rating img{
+	float:none; 
+	margin:0; 
+	padding:0;
+}
+
+#resource_tagcloud img{
+	float:none; 
+	margin:0; 
+	padding:0;
+}
+
+#resource_comments img{
+	float:none; 
+	margin:0px 0px 0px 2px; 
+	padding:0;
+	vertical-align:middle;
+}
+
+/* footer */
+
+#footer img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/* jquery tabs and dialogs overide */
+
+.ui-widget {	
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 12px;
+}
+
+
+img {
+	border: 0;
+}
+
+
+/* ie7 fixes */
+
+<!--[if IE 76]>
+Special instructions for IE 6 here
+<![endif]-->
